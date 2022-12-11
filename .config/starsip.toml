@@ -1,0 +1,46 @@
+# Use custom format
+add_newline = true
+
+format = """
+[•](red) [•](yellow) [•](bold white) $status$git_branch$kubernetes$package$python$golang$docker_context$container
+[ [•](green) $username$directory](bold white)"""
+
+# Get editor completions based on the config schema
+"$schema" = 'https://starship.rs/config-schema.json'
+
+[c]
+symbol = " "
+
+[username]
+#disabled = false
+show_always = false
+
+[directory]
+read_only = " "
+style = "bold cyan"
+
+[docker_context]
+symbol = " "
+
+[elixir]
+symbol = " "
+
+[git_branch]
+symbol = " " 
+
+[golang]
+symbol = " "
+
+[lua]
+symbol = " "
+
+[memory_usage]
+symbol = " "
+
+[package]
+symbol = " "
+
+[python]
+symbol = " "
+
+

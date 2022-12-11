@@ -1,5 +1,5 @@
 [global]
-    font = "Iosevka Term Regular 10"
+    font = "scientifica"
     allow_markup = yes
     format = "<b>%s</b>\n%b"
     sort = yes

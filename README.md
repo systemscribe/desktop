@@ -1,26 +1,31 @@
 # Desktop Configuration Files
-Most recent config:
+
+## Notes
+
+Migrated to Fedora i3 spin, as work is predominantly Red Hat products and I wanted to get a feel on my personal machine. Haven't used it since 2012.
+
+## General info
 
 Machine: Intel NUC8i3BEH
 
 RAM: 32 GB
 
-OS: Solus x86_64
+OS: Fedora 37 x86_64
 
 Shell: bash
 
-WM: i3-gaps with Gnome 42.0 for gnome-settings
+WM: i3-gaps
 
-GTK Theme: Gruvbox-Material-Dark
+GTK Theme: Gruvbox-Dark-BL-LB
 
-Icons: retrofukation
+Icons: Flatery-Gray-Dark
 
 Notifications: dunst
 
-Panel: polybar
+Panel: i3status
 
+Editor: NvChad
 
+## Paths
 
-i3-gaps is running hand in hand with Gnome, as inspired by the Regolith project. Color choices are based around the gruvbox color scheme. Transperancy of certain windows is in the picom config. Using Rofi alongside dmenu for application starting and dunst for desktop notifications.
-
-
+Included the most important things from `.config` and some small startup scripts from `.scripts`.

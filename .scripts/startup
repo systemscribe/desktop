@@ -1,0 +1,7 @@
+#!/bin/bash
+
+i3-msg 'workspace "I "; exec brave'
+sleep 5
+i3-msg 'workspace "II "; exec alacritty -e ncspot; exec signal-desktop; exec telegram-desktop'
+
+

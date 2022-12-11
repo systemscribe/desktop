@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-fill '/home/scribe/Pictures/Wallpapers/scr-landscape.png' '/home/scribe/Pictures/Wallpapers/scr-portrait2.png' 
